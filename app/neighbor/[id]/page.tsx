@@ -11,7 +11,7 @@ const neighbors = [
   {
     id: "1",
     name: "권재헌",
-    avatar: "/placeholder.svg?height=200&width=200",
+    avatar: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-qXo1Y1b0lcSZDBgj5W680zlaEDlQ2G.png",
     description: "스파크 팀장 권재헌입니다",
     status: "offline" as const,
     bio: "안녕하세요! 스파크 팀을 이끌고 있는 권재헌입니다. 지역 사회 발전에 관심이 많고, 이웃들과 함께 더 나은 커뮤니티를 만들어가고 싶습니다.",
@@ -25,7 +25,7 @@ const neighbors = [
   {
     id: "2",
     name: "나기찬",
-    avatar: "/placeholder.svg?height=200&width=200",
+    avatar: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-eF6w1chIjHmpYzMiKT6uwejDWValUU.jpeg",
     description: "스파크 기획 나기찬입니다",
     status: "online" as const,
     bio: "기획자로 일하고 있습니다. 창의적인 아이디어로 우리 동네를 더 살기 좋은 곳으로 만들고 싶어요!",
@@ -39,7 +39,7 @@ const neighbors = [
   {
     id: "3",
     name: "박근우",
-    avatar: "/placeholder.svg?height=200&width=200",
+    avatar: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-e8QyesLG6DnNG0vhyphZw7Sj8XHvFp.png",
     description: "스파크 개발 박근우입니다",
     status: "online" as const,
     bio: "개발자입니다. 기술로 사회 문제를 해결하는 것에 관심이 많습니다.",
@@ -53,7 +53,7 @@ const neighbors = [
   {
     id: "4",
     name: "이규원",
-    avatar: "/placeholder.svg?height=200&width=200",
+    avatar: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-WRaYPsJjrRicFhrmj9bHYb1ZEg7Txg.png",
     description: "스파크 발표 이규원입니다",
     status: "offline" as const,
     bio: "발표와 커뮤니케이션을 담당하고 있습니다. 사람들과 소통하는 것을 좋아합니다!",
@@ -67,7 +67,7 @@ const neighbors = [
   {
     id: "5",
     name: "DC즈",
-    avatar: "/placeholder.svg?height=200&width=200",
+    avatar: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-oVu3beycnMexY7mZfhGe2WSH9VJG3p.png",
     description: "디자인은 디컨",
     status: "online" as const,
     bio: "디자이너입니다. 아름다운 디자인으로 세상을 더 나은 곳으로 만들고 싶습니다.",
@@ -81,7 +81,7 @@ const neighbors = [
   {
     id: "6",
     name: "김민수",
-    avatar: "/placeholder.svg?height=200&width=200",
+    avatar: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-EV11iawQpEJ8fmXrbs64PGEeaq3LHu.png",
     description: "스파크 백엔드 개발자입니다",
     status: "online" as const,
     bio: "백엔드 개발을 담당하고 있습니다. 안정적인 시스템 구축에 열정을 가지고 있습니다.",
@@ -95,7 +95,7 @@ const neighbors = [
   {
     id: "7",
     name: "이서연",
-    avatar: "/placeholder.svg?height=200&width=200",
+    avatar: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-iwoLY8efESIdaNveWWWOCwVs6AcCWF.png",
     description: "스파크 프론트 엔드 개발자입니다",
     status: "offline" as const,
     bio: "프론트엔드 개발자로 사용자 경험을 최우선으로 생각합니다.",
@@ -109,7 +109,7 @@ const neighbors = [
   {
     id: "8",
     name: "박지훈",
-    avatar: "/placeholder.svg?height=200&width=200",
+    avatar: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-Ns1QUUIHAGosp5MkeyDZTR8ehlvggq.png",
     description: "스파크 UI/UX 디자이너입니다",
     status: "online" as const,
     bio: "사용자 중심의 디자인을 추구합니다. 모두가 쉽게 사용할 수 있는 서비스를 만들고 싶어요.",
@@ -123,7 +123,7 @@ const neighbors = [
   {
     id: "9",
     name: "뿡빵이",
-    avatar: "/placeholder.svg?height=200&width=200",
+    avatar: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-XucrI7N8uLA2q9CZte1OAlFLZQU25I.png",
     description: "찰지구나",
     status: "offline" as const,
     bio: "찰떡같은 이웃이 되고 싶습니다! 언제든 편하게 연락주세요~",
@@ -137,7 +137,7 @@ const neighbors = [
   {
     id: "10",
     name: "엘릭",
-    avatar: "/placeholder.svg?height=200&width=200",
+    avatar: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-qXo1Y1b0lcSZDBgj5W680zlaEDlQ2G.png",
     description: "정답니다 연금술사!",
     status: "online" as const,
     bio: "연금술처럼 창의적인 아이디어로 가치를 만들어냅니다.",
@@ -151,7 +151,7 @@ const neighbors = [
   {
     id: "11",
     name: "전읍읍",
-    avatar: "/placeholder.svg?height=200&width=200",
+    avatar: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-eF6w1chIjHmpYzMiKT6uwejDWValUU.jpeg",
     description: "#검열된 설명입니다.#",
     status: "offline" as const,
     bio: "미스터리한 이웃입니다. 하지만 친절해요!",
@@ -165,7 +165,7 @@ const neighbors = [
   {
     id: "12",
     name: "아이네",
-    avatar: "/placeholder.svg?height=200&width=200",
+    avatar: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-e8QyesLG6DnNG0vhyphZw7Sj8XHvFp.png",
     description: "어떻게 사람 키가...",
     status: "online" as const,
     bio: "작지만 강한 이웃입니다! 키는 작아도 마음은 큽니다.",
@@ -179,7 +179,7 @@ const neighbors = [
   {
     id: "13",
     name: "제시원",
-    avatar: "/placeholder.svg?height=200&width=200",
+    avatar: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-WRaYPsJjrRicFhrmj9bHYb1ZEg7Txg.png",
     description: "siwon is free",
     status: "offline" as const,
     bio: "자유로운 영혼입니다. 여행과 새로운 경험을 사랑합니다.",
@@ -216,7 +216,7 @@ export default async function NeighborProfilePage({ params }: { params: Promise<
 
       <main className="container mx-auto px-4 py-6 max-w-2xl">
         {/* Profile Header */}
-        <div className="bg-card rounded-3xl p-6 mb-4">
+        <div className="bg-warm-cream rounded-3xl p-6 mb-4">
           <div className="flex items-start gap-4 mb-6">
             <div className="relative">
               <Image
@@ -228,14 +228,14 @@ export default async function NeighborProfilePage({ params }: { params: Promise<
               />
               <div
                 className={cn(
-                  "absolute bottom-2 right-2 w-4 h-4 rounded-full border-2 border-card",
+                  "absolute bottom-2 right-2 w-4 h-4 rounded-full border-2 border-warm-cream",
                   neighbor.status === "online" ? "bg-[hsl(var(--status-online))]" : "bg-[hsl(var(--status-offline))]",
                 )}
               />
             </div>
             <div className="flex-1">
               <h2 className="text-2xl font-bold text-card-foreground mb-2">{neighbor.name}</h2>
-              <p className="text-sm text-muted-foreground mb-3">{neighbor.description}</p>
+              <p className="text-sm mb-3 text-muted-foreground">{neighbor.description}</p>
               <div className="flex gap-2">
                 <Button size="sm" className="rounded-full">
                   <MessageCircle className="h-4 w-4 mr-2" />
@@ -251,7 +251,7 @@ export default async function NeighborProfilePage({ params }: { params: Promise<
           {/* Bio */}
           <div className="mb-6">
             <h3 className="text-sm font-semibold text-card-foreground mb-2">소개</h3>
-            <p className="text-sm text-muted-foreground leading-relaxed">{neighbor.bio}</p>
+            <p className="text-sm leading-relaxed text-muted-foreground">{neighbor.bio}</p>
           </div>
 
           {/* Info Grid */}
@@ -266,13 +266,13 @@ export default async function NeighborProfilePage({ params }: { params: Promise<
             </div>
             <div className="flex items-center gap-3 text-sm">
               <Calendar className="h-4 w-4 text-muted-foreground" />
-              <span className="text-card-foreground">{neighbor.joinDate} 가입</span>
+              <span className="text-card-foreground">{neighbor.joinDate}</span>
             </div>
           </div>
         </div>
 
         {/* Interests */}
-        <div className="bg-card rounded-3xl p-6 mb-4">
+        <div className="bg-warm-cream rounded-3xl p-6 mb-4">
           <h3 className="text-sm font-semibold text-card-foreground mb-3">관심사</h3>
           <div className="flex flex-wrap gap-2">
             {neighbor.interests.map((interest, index) => (
@@ -287,16 +287,16 @@ export default async function NeighborProfilePage({ params }: { params: Promise<
         </div>
 
         {/* Contact */}
-        <div className="bg-card rounded-3xl p-6">
+        <div className="bg-warm-cream rounded-3xl p-6">
           <h3 className="text-sm font-semibold text-card-foreground mb-3">연락처</h3>
           <div className="space-y-3">
             <button className="w-full flex items-center gap-3 p-3 rounded-xl hover:bg-secondary/50 transition-colors">
               <Phone className="h-5 w-5 text-muted-foreground" />
-              <span className="text-sm text-card-foreground">{neighbor.phone}</span>
+              <span className="text-card-foreground">{neighbor.phone}</span>
             </button>
             <button className="w-full flex items-center gap-3 p-3 rounded-xl hover:bg-secondary/50 transition-colors">
               <Mail className="h-5 w-5 text-muted-foreground" />
-              <span className="text-sm text-card-foreground">{neighbor.email}</span>
+              <span className="text-card-foreground">{neighbor.email}</span>
             </button>
           </div>
         </div>

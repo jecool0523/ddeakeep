@@ -70,7 +70,7 @@ export default function MillPage() {
           <input
             type="text"
             placeholder="검색..."
-            className="w-full h-12 rounded-full bg-white border border-warm-border px-4 pr-12 text-sm focus:outline-none focus:ring-2 focus:ring-warm-accent"
+            className="w-full h-12 rounded-full bg-warm-cream border border-warm-border px-4 pr-12 text-sm focus:outline-none focus:ring-2 focus:ring-warm-accent"
           />
           <Search className="absolute right-4 top-3.5 h-5 w-5 text-gray-400" />
         </div>

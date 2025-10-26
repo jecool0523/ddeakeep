@@ -156,7 +156,7 @@ export default function ShopPage() {
           <input
             type="text"
             placeholder="상품 검색..."
-            className="w-full h-12 rounded-full bg-white border border-warm-border px-4 pr-12 text-sm focus:outline-none focus:ring-2 focus:ring-warm-accent"
+            className="w-full h-12 rounded-full bg-warm-cream border border-warm-border px-4 pr-12 text-sm focus:outline-none focus:ring-2 focus:ring-warm-accent"
           />
           <Search className="absolute right-4 top-3.5 h-5 w-5 text-gray-400" />
         </div>
@@ -178,11 +178,11 @@ export default function ShopPage() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.1 }}
-              className="bg-white rounded-2xl overflow-hidden shadow-sm border border-warm-border"
+              className="bg-warm-cream rounded-2xl overflow-hidden shadow-sm border border-warm-border"
             >
               <div className="flex gap-4 p-4">
                 {/* Product Image */}
-                <div className="w-24 h-24 flex-shrink-0 bg-warm-cream rounded-xl overflow-hidden">
+                <div className="w-24 h-24 flex-shrink-0 bg-warm-bg rounded-xl overflow-hidden">
                   <img
                     src={product.image || "/placeholder.svg"}
                     alt={product.name}
@@ -217,7 +217,7 @@ export default function ShopPage() {
                         <span>{product.timeLeft}</span>
                       </div>
                     </div>
-                    <div className="h-1.5 bg-warm-cream rounded-full overflow-hidden">
+                    <div className="h-1.5 bg-warm-bg rounded-full overflow-hidden">
                       <div
                         className="h-full bg-warm-accent rounded-full transition-all"
                         style={{

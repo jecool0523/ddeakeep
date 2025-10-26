@@ -165,9 +165,9 @@ export default function CalendarPage() {
   const dayNames = ["일", "월", "화", "수", "목", "금", "토"]
 
   return (
-    <div className="min-h-screen bg-[#F5E6D3] pb-20">
+    <div className="min-h-screen bg-background pb-20">
       {/* Header */}
-      <header className="bg-[#F5E6D3] border-b border-[#8B6F47]/20 p-4">
+      <header className="bg-background border-b border-[#8B6F47]/20 p-4">
         <div className="flex items-center justify-between max-w-2xl mx-auto">
           <div className="flex items-center gap-2">
             <Image src="/images/ddeakeep.png" alt="떡잎" width={60} height={24} className="h-6 w-auto" />
@@ -207,7 +207,7 @@ export default function CalendarPage() {
         </div>
 
         {/* Calendar */}
-        <Card className="bg-[#E8D4B8] border-[#8B6F47]/20 shadow-lg mb-4">
+        <Card className="bg-warm-cream border-[#8B6F47]/20 shadow-lg mb-4">
           <div className="p-4">
             {/* Month Navigation */}
             <div className="flex items-center justify-between mb-4">
@@ -286,7 +286,7 @@ export default function CalendarPage() {
         </Card>
 
         {/* Events List */}
-        <Card className="bg-[#E8D4B8] border-[#8B6F47]/20 shadow-lg">
+        <Card className="bg-warm-cream border-[#8B6F47]/20 shadow-lg">
           <div className="p-4">
             <div className="bg-[#8B6F47] rounded-full h-1 w-32 mx-auto mb-4" />
 
@@ -299,7 +299,7 @@ export default function CalendarPage() {
                   <Plus className="h-5 w-5" />
                 </button>
               </DialogTrigger>
-              <DialogContent className="bg-[#F5E6D3]">
+              <DialogContent className="bg-warm-cream">
                 <DialogHeader>
                   <DialogTitle className="text-[#8B6F47]">새 일정 추가</DialogTitle>
                 </DialogHeader>
@@ -312,7 +312,7 @@ export default function CalendarPage() {
                       id="title"
                       value={newEvent.title}
                       onChange={(e) => setNewEvent({ ...newEvent, title: e.target.value })}
-                      className="bg-white border-[#8B6F47]/20"
+                      className="bg-warm-cream border-[#8B6F47]/20"
                       placeholder="일정 제목을 입력하세요"
                     />
                   </div>
@@ -324,7 +324,7 @@ export default function CalendarPage() {
                       id="description"
                       value={newEvent.description}
                       onChange={(e) => setNewEvent({ ...newEvent, description: e.target.value })}
-                      className="bg-white border-[#8B6F47]/20"
+                      className="bg-warm-cream border-[#8B6F47]/20"
                       placeholder="일정 설명을 입력하세요"
                     />
                   </div>
@@ -337,7 +337,7 @@ export default function CalendarPage() {
                       type="time"
                       value={newEvent.event_time}
                       onChange={(e) => setNewEvent({ ...newEvent, event_time: e.target.value })}
-                      className="bg-white border-[#8B6F47]/20"
+                      className="bg-warm-cream border-[#8B6F47]/20"
                     />
                   </div>
                   <div>
@@ -348,7 +348,7 @@ export default function CalendarPage() {
                       id="location"
                       value={newEvent.location}
                       onChange={(e) => setNewEvent({ ...newEvent, location: e.target.value })}
-                      className="bg-white border-[#8B6F47]/20"
+                      className="bg-warm-cream border-[#8B6F47]/20"
                       placeholder="장소를 입력하세요"
                     />
                   </div>
