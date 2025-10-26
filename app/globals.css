@@ -1,0 +1,181 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Updated to warm neighbor community theme with beige/tan/brown palette */
+    --background: 30 25% 95%; /* Warm beige background */
+    --foreground: 25 30% 20%; /* Dark brown text */
+    --card: 25 35% 45%; /* Brown cards */
+    --card-foreground: 30 15% 95%; /* Light text on cards */
+    --popover: 30 25% 95%;
+    --popover-foreground: 25 30% 20%;
+    --primary: 15 65% 60%; /* Coral/peach accent */
+    --primary-foreground: 30 15% 95%;
+    --secondary: 30 20% 85%; /* Light tan */
+    --secondary-foreground: 25 30% 20%;
+    --muted: 30 20% 85%;
+    --muted-foreground: 25 20% 40%;
+    --accent: 15 65% 60%; /* Coral accent */
+    --accent-foreground: 30 15% 95%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 30 15% 95%;
+    --border: 30 20% 80%;
+    --input: 30 20% 85%;
+    --ring: 15 65% 60%;
+    --radius: 0.75rem;
+
+    /* Status colors */
+    --status-online: 142 76% 36%; /* Green */
+    --status-offline: 0 0% 60%; /* Gray */
+
+    --warm-bg: 30 25% 95%;
+    --warm-brown: 25 35% 35%;
+    --warm-cream: 35 40% 85%;
+    --warm-plate: 20 30% 75%;
+    --warm-plate-border: 20 25% 65%;
+    --warm-border: 30 20% 85%;
+    --warm-accent: 15 65% 60%;
+
+    /* Sidebar variables */
+    --sidebar-background: 30 25% 95%;
+    --sidebar-foreground: 25 30% 20%;
+    --sidebar-primary: 25 30% 20%;
+    --sidebar-primary-foreground: 30 25% 95%;
+    --sidebar-accent: 30 20% 85%;
+    --sidebar-accent-foreground: 25 30% 20%;
+    --sidebar-border: 30 20% 80%;
+    --sidebar-ring: 15 65% 60%;
+  }
+
+  .dark {
+    /* Dark mode with warm tones */
+    --background: 25 30% 12%;
+    --foreground: 30 15% 95%;
+    --card: 25 25% 20%;
+    --card-foreground: 30 15% 95%;
+    --popover: 25 30% 12%;
+    --popover-foreground: 30 15% 95%;
+    --primary: 15 65% 60%;
+    --primary-foreground: 30 15% 95%;
+    --secondary: 25 20% 18%;
+    --secondary-foreground: 30 15% 95%;
+    --muted: 25 20% 18%;
+    --muted-foreground: 30 10% 65%;
+    --accent: 25 20% 18%;
+    --accent-foreground: 30 15% 95%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 30 15% 95%;
+    --border: 25 20% 18%;
+    --input: 25 20% 18%;
+    --ring: 15 65% 60%;
+
+    /* Status colors */
+    --status-online: 142 76% 36%;
+    --status-offline: 0 0% 40%;
+
+    --warm-bg: 25 30% 12%;
+    --warm-brown: 25 35% 25%;
+    --warm-cream: 35 20% 75%;
+    --warm-plate: 20 20% 30%;
+    --warm-plate-border: 20 15% 25%;
+    --warm-border: 25 20% 20%;
+    --warm-accent: 15 65% 60%;
+
+    /* Sidebar variables */
+    --sidebar-background: 25 30% 12%;
+    --sidebar-foreground: 30 15% 95%;
+    --sidebar-primary: 30 15% 95%;
+    --sidebar-primary-foreground: 25 30% 12%;
+    --sidebar-accent: 25 20% 18%;
+    --sidebar-accent-foreground: 30 15% 95%;
+    --sidebar-border: 25 20% 18%;
+    --sidebar-ring: 15 65% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Accessibility styles */
+.high-contrast {
+  --background: 0 0% 100%;
+  --foreground: 0 0% 0%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 0%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 0%;
+  --primary: 240 100% 50%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 0 0% 90%;
+  --secondary-foreground: 0 0% 0%;
+  --muted: 0 0% 90%;
+  --muted-foreground: 0 0% 0%;
+  --accent: 0 0% 90%;
+  --accent-foreground: 0 0% 0%;
+  --destructive: 0 100% 50%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 0 0% 0%;
+  --input: 0 0% 0%;
+  --ring: 240 100% 50%;
+}
+
+.high-contrast.dark {
+  --background: 0 0% 0%;
+  --foreground: 0 0% 100%;
+  --card: 0 0% 0%;
+  --card-foreground: 0 0% 100%;
+  --popover: 0 0% 0%;
+  --popover-foreground: 0 0% 100%;
+  --primary: 240 100% 50%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 0 0% 10%;
+  --secondary-foreground: 0 0% 100%;
+  --muted: 0 0% 10%;
+  --muted-foreground: 0 0% 100%;
+  --accent: 0 0% 10%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 100% 50%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 0 0% 100%;
+  --input: 0 0% 100%;
+  --ring: 240 100% 50%;
+}
+
+.large-text {
+  font-size: 120%;
+  line-height: 1.5;
+}
+
+.large-text h1 {
+  font-size: 2.5rem;
+}
+
+.large-text h2 {
+  font-size: 2rem;
+}
+
+.large-text h3 {
+  font-size: 1.75rem;
+}
+
+.large-text p,
+.large-text span,
+.large-text button,
+.large-text a {
+  font-size: 1.2rem;
+}
+
+.large-text input,
+.large-text textarea,
+.large-text select {
+  font-size: 1.2rem;
+  padding: 0.75rem;
+}
